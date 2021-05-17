@@ -5,17 +5,15 @@ DockerML comes built with Numpy, Pandas, MatplotLib, Jupyter and support the fol
 
 - [x]  TensorFlow-CPU
 - [x]  TensorFlow-GPU (through Nvidia-Docker)
-- [ ]  PyTorch
+- [x]  PyTorch
 - [x]  Keras
-- [ ]  CNTK
-- [ ]  MXNet
-- [ ]  Theano
-- [ ]  Caffee
-- [ ]  Sonnet
-- [ ]  Chainer
-- [ ]  FastAI
-- [ ]  XGBoost
-- [ ]  SK-Learn
-- [ ]  LightGMB
-- [ ]  OpenCV
-- [ ]  Vowpal Wabbit
+- [x]  CNTK
+- [x]  Theano
+- [x]  Sonnet
+- [x]  Chainer
+- [x]  FastAI
+- [x]  XGBoost
+- [x]  Scikit-Learn
+- [x]  LightGMB
+- [x]  OpenCV
+- [x]  Vowpal Wabbit
