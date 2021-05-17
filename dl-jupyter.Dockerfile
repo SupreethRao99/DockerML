@@ -1,6 +1,5 @@
 # NVIDIA CUDA image as a base
-# We also mark this image as "jupyter-base" so we could use it by name
-FROM nvidia/cuda:11.3.0-runtime AS jupyter-base
+FROM nvidia/cuda:11.3.0-runtime
 WORKDIR /
 # Install Python and its tools
 RUN apt update && apt install -y --no-install-recommends \
@@ -10,6 +9,7 @@ RUN apt update && apt install -y --no-install-recommends \
     python3-pip \
     python3-setuptools
 RUN pip3 -q install pip --upgrade
-# Install all basic packages
+
+# Install all required packages
 COPY requirements.txt ./
 RUN pip3 install --no-cache-dir -r requirements.txt
