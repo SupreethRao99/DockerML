@@ -1,5 +1,6 @@
 # NVIDIA CUDA image as a base
 FROM nvidia/cuda:11.3.0-runtime
+MAINTAINER Supreeth Rao <raosupreth00@gmail.com>
 WORKDIR /
 # Install Python and its tools
 RUN apt update && apt install -y --no-install-recommends \
