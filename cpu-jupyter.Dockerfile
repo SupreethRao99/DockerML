@@ -1,4 +1,4 @@
-# NVIDIA CUDA image as a base
+# CPU only
 FROM python:3.9.5
 MAINTAINER Supreeth Rao <raosupreth00@gmail.com>
 WORKDIR /
@@ -9,8 +9,12 @@ RUN apt update && apt install -y --no-install-recommends \
     python3-dev \
     python3-pip \
     python3-setuptools
-RUN pip3 -q install pip --upgrade
+RUN pip3 --no-cache-dir install --upgrade \
+    numpy \
+    pandas \
+    matplotlib \
+    jupyter
 
 # Install all required packages
-COPY requirements.txt ./
-RUN pip3 install --no-cache-dir -r requirements.txt
+COPY cpu-requirements.txt ./
+RUN pip3 install --no-cache-dir -r cpu-requirements.txt

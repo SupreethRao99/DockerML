@@ -1,18 +1,16 @@
 version: "3.8"
 services:
     jupyter-server:
-        image: dl-jupyter
+        image: cpu-jupyter
         init: true
         build:
             context: ./
-            dockerfile: dl-jupyter.Dockerfile
+            dockerfile: cpu-jupyter.Dockerfile
         env_file: ./.env
         ports:
             - ${JUPYTER_PORT}:${JUPYTER_PORT}
         volumes:
             - ${ROOT_DIR}:/jupyter
-        environment:
-            - NVIDIA_VISIBLE_DEVICES=all
         command:
             [
                 "jupyter",
@@ -23,19 +21,13 @@ services:
                 "--notebook-dir=${JUPYTER_DIR}",
                 '--NotebookApp.token=${JUPYTER_TOKEN}'
             ]
-        deploy:
-            resources:
-                reservations:
-                    devices:
-                        - driver: nvidia
-                          count: all
-                          capabilities: ["gpu"]
+
 
     tensorboard:
-        image: dl-tensorboard
+        image: monitoring
         build:
             context: ./
-            dockerfile: tensorboard.Dockerfile
+            dockerfile: monitoring.Dockerfile
         ports:
             - ${TENSORBOARD_PORT}:${TENSORBOARD_PORT}
         volumes:

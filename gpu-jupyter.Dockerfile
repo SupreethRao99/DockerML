@@ -12,6 +12,7 @@ RUN pip3 --no-cache-dir install --upgrade \
     numpy \
     pandas \
     matplotlib \
+    jupyter
 
 # Install all required packages
 COPY requirements.txt ./
