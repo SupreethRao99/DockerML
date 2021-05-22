@@ -1,5 +1,5 @@
 # NVIDIA CUDA image as a base
-FROM nvidia/cuda:11.3.0-runtime
+FROM python:3.9.5
 MAINTAINER Supreeth Rao <raosupreth00@gmail.com>
 WORKDIR /
 # Install Python and its tools
