@@ -48,7 +48,7 @@ to use DockerML
 2. Change directories to the DockerML directory `cd DockerML`
 3. To build the docker image run `docker build -f dockerml-cpu.Dockerfile -t supreethrao/docker-ml  .`
 4. To run the image , execute `docker run -it -p 8888:8888 supreethrao/dockerml-cpu `
-  - a directory on the docker host can be attached to the container using the `-v` flag. `docker run -it -p 8888:8888 -v filesystem:/usr/src/app supreethrao/dockerml-cpu` . To know more about attaching volumes , [read the docs](https://docs.docker.com/storage/volumes/)
+  - a directory on the docker host can be attached to the container using the `-v` flag. `docker run -it -p 8888:8888 -v /path/to/local/folder:/usr/src/app supreethrao/dockerml-cpu` . To know more about attaching volumes , [Docker volumes documentation](https://docs.docker.com/storage/volumes/)
 6. Once the container is running , inside the command line of the container run `jupyter notebook --ip 0.0.0.0 --no-browser --allow-root`
 7. Go to (http://localhost:8888/tree) or the url produced as the output when the above command was run (preffered)
 
