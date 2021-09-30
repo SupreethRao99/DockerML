@@ -65,7 +65,7 @@ to use DockerML
 }
 ```
 # Contributing
-Feel free to make pull requests to fix bugs or add features
+Feel free to make pull requests to fix bugs or add features. Please read CONTRIBUTING.md
 
 # License
 DockerML is licensed under the [MIT License](https://github.com/SupreethRao99/DockerML/blob/main/LICENSE)
