@@ -92,7 +92,7 @@ nest-asyncio==1.5.1
 networkx==2.6.3
 notebook==6.4.3
 numba==0.54.0
-numpy==1.19.5
+numpy==1.21.2
 oauthlib==3.1.1
 onnx==1.10.1
 opencv-contrib-python==4.5.3.56
