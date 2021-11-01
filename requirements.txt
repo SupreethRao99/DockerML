@@ -114,7 +114,7 @@ platformdirs==2.4.0
 prettytable==2.2.0
 prometheus-client==0.11.0
 promise==2.3
-prompt-toolkit==3.0.20
+prompt-toolkit==3.0.21
 protobuf==3.17.3
 psutil==5.8.0
 ptyprocess==0.7.0
