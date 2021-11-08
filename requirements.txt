@@ -55,7 +55,7 @@ ipykernel==6.5.0
 ipython==7.27.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.4
-jax==0.2.19
+jax==0.2.24
 jaxlib==0.1.73
 jedi==0.18.0
 Jinja2==3.0.1
