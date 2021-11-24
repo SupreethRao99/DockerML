@@ -155,7 +155,7 @@ stevedore==3.4.0
 subprocess32==3.5.4
 sympy==1.8
 tblib==1.7.0
-tensorboard==2.6.0
+tensorboard==2.7.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 tensorboardX==2.4
