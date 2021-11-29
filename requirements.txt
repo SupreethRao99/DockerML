@@ -52,7 +52,7 @@ hydra-slayer==0.3.0
 idna==3.2
 imageio==2.9.0
 ipykernel==6.5.0
-ipython==7.27.0
+ipython==7.30.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.4
 jax==0.2.24
