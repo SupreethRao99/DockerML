@@ -153,7 +153,7 @@ sortedcontainers==2.4.0
 SQLAlchemy==1.4.27
 stevedore==3.4.0
 subprocess32==3.5.4
-sympy==1.8
+sympy==1.9
 tblib==1.7.0
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
