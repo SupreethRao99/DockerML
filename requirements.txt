@@ -23,7 +23,7 @@ cloudpickle==2.0.0
 cmaes==0.8.2
 cmd2==2.1.2
 colorama==0.4.4
-colorlog==6.4.1
+colorlog==6.6.0
 configparser==5.0.2
 cycler==0.10.0
 dask==2021.11.2
