@@ -18,13 +18,13 @@ cffi==1.14.6
 charset-normalizer==2.0.4
 clang==5.0
 click==8.0.1
-cliff==3.9.0
+cliff==3.10.0
 cloudpickle==2.0.0
 cmaes==0.8.2
 cmd2==2.1.2
 colorama==0.4.4
 colorlog==6.6.0
-configparser==5.0.2
+configparser==5.2.0
 cycler==0.10.0
 dask==2021.11.2
 debugpy==1.4.1
@@ -51,7 +51,7 @@ huggingface-hub==0.0.16
 hydra-slayer==0.3.0
 idna==3.3
 imageio==2.9.0
-ipykernel==6.5.0
+ipykernel==6.6.0
 ipython==7.30.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.4
