@@ -23,7 +23,7 @@ cloudpickle==2.0.0
 cmaes==0.8.2
 cmd2==2.1.2
 colorama==0.4.4
-colorlog==6.4.1
+colorlog==6.6.0
 configparser==5.0.2
 cycler==0.10.0
 dask==2021.11.2
@@ -68,7 +68,7 @@ jupyter-server==1.10.2
 jupyterlab==3.2.3
 jupyterlab-pygments==0.1.2
 jupyterlab-server==2.7.2
-jupyterlab-widgets==1.0.1
+jupyterlab-widgets==1.0.2
 kaggle==1.5.12
 keras==2.6.0
 Keras-Preprocessing==1.1.2
