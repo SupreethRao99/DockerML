@@ -2,7 +2,7 @@ absl-py==0.14.1
 albumentations==1.1.0
 alembic==1.7.1
 anyio==3.4.0
-argon2-cffi==21.1.0
+argon2-cffi==21.3.0
 astunparse==1.6.3
 attrs==21.2.0
 autopage==0.4.0
