@@ -130,7 +130,7 @@ python-slugify==5.0.2
 pytz==2021.3
 PyWavelets==1.2.0
 PyYAML==5.4.1
-pyzmq==22.2.1
+pyzmq==22.3.0
 qudida==0.0.4
 ray==1.9.0
 redis==3.5.3
