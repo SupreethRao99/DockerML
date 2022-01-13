@@ -109,7 +109,7 @@ pathtools==0.1.2
 pbr==5.6.0
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.3.2
+Pillow==9.0.0
 platformdirs==2.4.0
 prettytable==2.2.0
 prometheus-client==0.12.0
