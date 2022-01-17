@@ -48,7 +48,7 @@ grpcio==1.39.0
 h5py==3.1.0
 HeapDict==1.0.1
 huggingface-hub==0.0.16
-hydra-slayer==0.3.0
+hydra-slayer==0.4.0
 idna==3.3
 imageio==2.9.0
 ipykernel==6.6.0
