@@ -180,7 +180,7 @@ transformers==4.15.0
 typing-extensions==3.10.0.2
 urllib3==1.26.8
 vowpalwabbit==8.11.0
-wandb==0.12.1
+wandb==0.12.10
 wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.2.1
