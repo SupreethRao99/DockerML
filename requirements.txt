@@ -150,7 +150,7 @@ six==1.16.0
 smmap==5.0.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
-SQLAlchemy==1.4.29
+SQLAlchemy==1.4.31
 stevedore==3.4.0
 subprocess32==3.5.4
 sympy==1.9
