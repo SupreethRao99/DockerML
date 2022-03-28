@@ -188,4 +188,4 @@ Werkzeug==2.0.2
 widgetsnbextension==3.6.0
 wrapt==1.12.1
 xgboost==1.4.2
-zict==2.0.0
+zict==2.1.0
