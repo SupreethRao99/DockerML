@@ -18,7 +18,7 @@ cffi==1.15.0
 charset-normalizer==2.0.4
 clang==5.0
 click==8.0.1
-cliff==3.10.0
+cliff==3.10.1
 cloudpickle==2.0.0
 cmaes==0.8.2
 cmd2==2.1.2
