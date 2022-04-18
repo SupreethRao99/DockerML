@@ -66,7 +66,7 @@ jupyter-client==7.1.2
 jupyter-core==4.7.1
 jupyter-server==1.15.4
 jupyterlab==3.2.3
-jupyterlab-pygments==0.1.2
+jupyterlab-pygments==0.2.2
 jupyterlab-server==2.10.3
 jupyterlab-widgets==1.0.2
 kaggle==1.5.12
