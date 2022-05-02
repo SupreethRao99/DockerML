@@ -54,7 +54,7 @@ imageio==2.14.1
 ipykernel==6.6.0
 ipython==8.2.0
 ipython-genutils==0.2.0
-ipywidgets==7.6.5
+ipywidgets==7.7.0
 jax==0.2.27
 jaxlib==0.1.73
 jedi==0.18.1
