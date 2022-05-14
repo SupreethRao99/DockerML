@@ -28,7 +28,7 @@ configparser==5.2.0
 cycler==0.10.0
 dask==2022.4.0
 debugpy==1.6.0
-decorator==5.0.9
+decorator==5.1.1
 defusedxml==0.7.1
 distributed==2022.2.1
 docker-pycreds==0.4.0
@@ -44,7 +44,7 @@ google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 greenlet==1.1.1
-grpcio==1.44.0
+grpcio==1.46.1
 h5py==3.1.0
 HeapDict==1.0.1
 huggingface-hub==0.4.0
@@ -54,7 +54,7 @@ imageio==2.14.1
 ipykernel==6.6.0
 ipython==8.2.0
 ipython-genutils==0.2.0
-ipywidgets==7.6.5
+ipywidgets==7.7.0
 jax==0.2.27
 jaxlib==0.1.73
 jedi==0.18.1
