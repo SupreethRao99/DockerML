@@ -5,13 +5,13 @@ anyio==3.5.0
 argon2-cffi==21.3.0
 astunparse==1.6.3
 attrs==21.4.0
-autopage==0.4.0
+autopage==0.5.1
 Babel==2.9.1
 backcall==0.2.0
 black==21.9b0
 bleach==4.1.0
 bokeh==2.4.2
-cachetools==5.0.0
+cachetools==5.2.0
 catalyst==21.12
 certifi==2021.10.8
 cffi==1.15.0
@@ -43,7 +43,7 @@ GitPython==3.1.24
 google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
-greenlet==1.1.1
+greenlet==1.1.2
 grpcio==1.46.1
 h5py==3.1.0
 HeapDict==1.0.1
