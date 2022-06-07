@@ -175,7 +175,7 @@ torch==1.10.1
 torchvision==0.10.0
 tornado==6.1
 tqdm==4.64.0
-traitlets==5.1.1
+traitlets==5.2.2.post1
 transformers==4.16.2
 typing-extensions==3.10.0.2
 urllib3==1.26.8
