@@ -36,7 +36,7 @@ einops==0.4.1
 entrypoints==0.4
 filelock==3.3.0
 flatbuffers==1.12
-fsspec==2022.3.0
+fsspec==2023.1.0
 gast==0.5.3
 gitdb==4.0.7
 GitPython==3.1.24
